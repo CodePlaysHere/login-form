@@ -10,27 +10,24 @@
 html,
 body {
 	height: 100%;
-	/* background-color: #0d1b2a; */
-	background-color: #081c15;
+	background-color: #0d1b2a;
 
 	display: grid;
 	place-items: center;
 }
 
 .container {
-	width: 400px;
+	width: 380px;
 	background-color: #fff;
-	border-radius: 20px;
-	box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
 }
 
 .container .title {
 	line-height: 80px;
-	/* background-color: #1b263b; */
-	background-color: #1b4332;
+	background-color: #1b263b;
 	color: #fff;
 	padding-left: 20px;
-	border-radius: 20px 20px 0 0;
+	border-radius: 10px 10px 0 0;
 	font-size: 25px;
 	font-weight: 600;
 	text-align: center;
@@ -60,11 +57,9 @@ body {
 	position: absolute;
 	width: 47px;
 	height: 100%;
-	/* background-color: #415a77; */
-	background-color: #2d6a4f;
+	background-color: #415a77;
 	color: #fff;
-	/* border: 2px solid #415a77; */
-	border: 2px solid #2d6a4f;
+	border: 2px solid #415a77;
 	border-radius: 10px 0 0 10px;
 	display: flex;
 	align-items: center;
@@ -76,8 +71,7 @@ body {
 }
 
 .container form .forgot a {
-	/* color: #415a77; */
-	color: #2d6a4f;
+	color: #415a77;
 	text-decoration: none;
 	transition: color 0.5s;
 	font-size: 15px;
@@ -85,17 +79,14 @@ body {
 
 .container form .forgot a:hover,
 .container form .forgot a:focus {
-	/* color: #0d1b2a; */
-	color: #081c15;
+	color: #0d1b2a;
 }
 
 .container form .login input {
 	padding-left: 0;
-	/* background-color: #415a77; */
-	background-color: #2d6a4f;
+	background-color: #415a77;
 	color: #fff;
-	/* border: 2px solid #415a77; */
-	border: 2px solid #2d6a4f;
+	border: 2px solid #415a77;
 	cursor: pointer;
 	font-size: 16px;
 	transition: background-color 0.5s;
@@ -103,7 +94,7 @@ body {
 
 .container form .login input:hover,
 .container form .login input:focus {
-	background-color: #1b4332;
+	background-color: #1b263b;
 }
 
 .container form .sign-up {
@@ -112,14 +103,12 @@ body {
 }
 
 .container form .sign-up a {
-	/* color: #415a77; */
-	color: #2d6a4f;
+	color: #415a77;
 	text-decoration: none;
 	transition: color 0.5s;
 }
 
 .container form .sign-up a:hover,
 .container form .sign-up a:focus {
-	/* color: #0d1b2a; */
-	color: #081c15;
+	color: #0d1b2a;
 }
